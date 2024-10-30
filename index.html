@@ -78,14 +78,16 @@
             <span></span>
             <span></span>
         </div>
-        <button class="openPopup menu-btn for-phone" data-button-name="nav button">Contact us</button>
+        <button class=" menu-btn for-phone" data-button-name="nav button"><a href="https://core42.ai/contact-us.html">Contact us</a></button>
         <ul class="menu" id="menu">
             <li><a href="#about">About Us</a></li>
             <li><a href="#products">Products</a></li>
            
             <li><a href="#leadership">Leadership</a></li>
-            <li><a href="#register" class="openPopup menu-btn for-desktop" data-button-name="nav button">Contact us  <i
-                        class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href="#products">Our Offering</a></li>
+            <li><a href="#newsfeed">Stay Connected</a></li>
+            <li><a href="https://core42.ai/contact-us.html" class=" menu-btn for-desktop" >Contact us  
+                       </a></li>
         </ul>
     </nav>
 
@@ -117,7 +119,7 @@
                     <p>Discover how Core42 enables digital transformation through Sovereign AI and cloud solutions
                         </p>
                     <div class="gobal-btn">
-                        <a href="#" class="openPopup" data-button-name="hero button">Contact us</a>
+                        <a href="#" class="openPopup" data-button-name="hero button">Contact Sales</a>
                     </div>
                     
                 </div>
@@ -211,22 +213,20 @@
                     </div><!-- item -->
                 </a>
 
-                <a data-fancybox="video-service"  href="https://www.youtube.com/watch?v=h3gLPpu1NTI">
+                <a class="popup-trigger" data-popup="compass" style="cursor: pointer;">
                     <div class="item">
                         <div class="service-area">
                             <div class="service-area-img">
                                 <img src="images/compass.png" alt="" loading="lazy">
                                
-                                <div class="play-btn">
-                                    <img src="images/play-button.png" alt="">
-                                </div>
+                               
                             </div>
                            
                             <div class="service-content">
                                 <h3>Compass </h3>
                                 <p>A fully managed AI platform offering top-tier foundation models through a unified API
                                 </p>
-                                <button >Watch Now</button>
+                                <button class="popup-trigger" data-popup="compass">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div><!-- item -->
@@ -647,7 +647,7 @@
 
         </div>
     </section>
-    <div class="nesfed">
+    <div class="nesfed" id="newsfeed">
         <div class="section-title">
             <h2 class="gradient-text leader-txt">Stay Connected</h2>
         </div>
@@ -659,8 +659,10 @@
     <section class="cta">
         <div class="main">
             <div class="gobal-btn2">
-
-                <button class="openPopup" data-button-name="footer button">Contact us</button>
+                <div class="section-title">
+                    <h2 class="gradient-text cta-title" style="margin-bottom: 60px;">Explore AI's Full Potential with Core42</h2>
+                </div>
+                <button class="openPopup" data-button-name="footer button">Speak to an Expert</button>
             </div>
         </div>
     </section>
@@ -1029,12 +1031,13 @@
     <!-- Popup container for Cloud Computing -->
     <div id="compass" class="service-popup card-popup-form">
         <div class="popup-content2 popup-content">
-            <span class="close-btn">&times;</span>
+           
             <div class="service-popup-box">
                 <div class="service-popup-left">
+                    <span class="close-btn">&times;</span>
                     <div class="popup-contnet">
                         <h3>Discover Compass
-                            at GITEX</h3>
+                            </h3>
                         <p class="power">Powering your AI future with next-gen digital infrastructure
 
                         </p>

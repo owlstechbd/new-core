@@ -1333,7 +1333,7 @@ input[type="submit"] {
     position: absolute;
 }
 .play-btn img{
-    width: 50px!important;
+    width: 80px!important;
 }
 .custom-nav {
     position: absolute;
@@ -2252,4 +2252,8 @@ button.multiselect-btn {
 }
 .popup-content3.popup-content .close-btn{
     color: #000;
+}
+
+.cta-title{
+    margin-top: -60px;
 }
