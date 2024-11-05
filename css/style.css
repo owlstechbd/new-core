@@ -1310,12 +1310,12 @@ input[type="submit"] {
 }
 
 .service-content h3 {
-    font-size: 2.3vw;
+    font-size: 1.5vw;
     font-weight: 400;
 }
 
 .service-content p {
-    font-size: 1.25vw;
+    font-size: 1vw;
     margin: 15px 0 30px;
     font-weight: 300 !important;
     flex-grow: 1;
@@ -1884,11 +1884,11 @@ partner */
 @media only screen and (max-width: 1600px) {
     .service-content p {
         font-size: 14px;
-        line-height: 25px;
+        line-height: 20px;
     }
 
     .service-content h3 {
-        font-size: 28px;
+        font-size: 23px;
     }
 
     .leader-iteam h3 {
