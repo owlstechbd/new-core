@@ -43,6 +43,22 @@ a:hover {
     text-decoration: none !important;
 }
 
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.slide {
+    min-width: 100%;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    opacity: 0;
+}
 
 
 .active {
@@ -103,6 +119,10 @@ a:hover {
     background-color: #27ae60;
 }
 
+.mobile-menu-btn{
+    color: #000;
+}
+
 /* Hamburger icon styling */
 .hamburger {
     display: none;
@@ -161,14 +181,14 @@ a:hover {
 .hero2{
     background: url(../images/hero-banner2.png) top center;
     background-size: cover;
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     background-position-Y:106px ;
   }
 .background-video {
     width: 100%;
     position: relative;
-    height: 75vh;
+    height: 100vh;
     overflow: hidden;
     z-index: -1;
 
@@ -227,7 +247,7 @@ video {
     width: 95%;
     margin: 0 auto;
     position: relative;
-    height: 75vh;
+    height: 100vh;
 
 }
 
@@ -746,11 +766,11 @@ input[type="submit"] {
 
 
     .background-video {
-        height: 80vh;
+        height: 100vh;
     }
 
     .video-container {
-        height: 80vh;
+        height: 100vh;
     }
 }
 
@@ -2256,4 +2276,129 @@ button.multiselect-btn {
 
 .cta-title{
     margin-top: -60px;
+}
+
+.contac-us-page{
+    width: 100%;
+    padding:200px 0 100px;
+    background: url(../images/contact-us.png) center center no-repeat;
+    background-size: cover;
+}
+.thankyou-page{
+    width: 100%;
+    padding:250px 0 150px;
+    background: url(../images/contact-us.png) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.contact-page-main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.thanyou-div{
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+.contact-page-main h2{
+    color: #fff;
+    font-size: 3.646vw;
+    font-family: 'Publica Sans';
+    font-weight: 500;
+}
+.contact-from-div{
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+.where-to-find{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/where-tofind.png) center center no-repeat;
+    background-size: cover;
+}
+.located-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.located-box{
+    color: #fff;
+    width: 32%;
+}
+.located-box img{
+    width: 100%;
+}
+.located-box  p{
+    margin-top: 15px;
+    font-size: 1vw;
+    font-weight: 300!important;
+}
+.located-box  h3{
+    font-size:2vw;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.thanyou-div h4{
+    font-size:30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.thanyou-div p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.thanyou-div a{
+     background: #48BEA1;
+    color: #000;
+    display: block;
+    border-radius: 6px;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.dis-none{
+    display: none;
+}
+.cta button a{
+    color: #000;
+}
+
+@media only screen and (max-width: 1600px){
+    .located-box p{
+        font-size: 16px;
+    }
+    .located-box h3{
+        font-size: 30px;
+    }
+    .contact-page-main h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .located-box{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .located-main{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px){
+    .contact-page-main{
+        width: 95%;
+    }
+    .thanyou-div h4 {
+        font-size: 23px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    .thanyou-div img{
+        width: 70px;
+    }
+    .thankyou-page{
+        padding: 150px 0 50px;
+    }
 }
