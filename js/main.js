@@ -51,41 +51,7 @@ $(document).ready(function () {
       $(this).closest(".service-popup").fadeOut();
     });
 
-    // Equalize heights for service-area elements (if needed)
-    function equalizeHeights() {
-      var maxHeight = 0;
-      $(".service-area").css("height", "auto"); // Reset heights to auto
-
-      // Calculate the maximum height
-      $(".service-area").each(function () {
-        var thisHeight = $(this).outerHeight();
-        if (thisHeight > maxHeight) {
-          maxHeight = thisHeight;
-        }
-      });
-
-      // Set all service-area elements to the maximum height
-      $(".service-area").css("height", maxHeight + "px");
-    }
-
-    // Run equalizeHeights after Owl Carousel is initialized
-    equalizeHeights();
-
-    // Debounce the resize event to improve performance
-    function debounce(func, wait) {
-      var timeout;
-      return function () {
-        clearTimeout(timeout);
-        timeout = setTimeout(func, wait);
-      };
-    }
-
-    // Re-run equalizeHeights on window resize with debounce
-    $(window).resize(
-      debounce(function () {
-        equalizeHeights();
-      }, 250)
-    ); // 250ms delay
+    
   }
 });
 
