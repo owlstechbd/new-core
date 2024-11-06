@@ -181,7 +181,7 @@ a:hover {
 .hero2{
     background: url(../images/hero-banner2.png) top center;
     background-size: cover!important;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-position-Y:106px ;
 }
@@ -247,7 +247,7 @@ video {
     width: 95%;
     margin: 0 auto;
     position: relative;
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -273,7 +273,7 @@ video {
 }
 
 .video-text h1 {
-    font-size: 3.646vw;
+    font-size: 3.246vw;
     font-family: 'Publica Sans';
     font-weight: 500;
 }
@@ -770,7 +770,7 @@ input[type="submit"] {
     }
 
     .video-container {
-        height: 100vh;
+        height: 80vh;
     }
 }
 
@@ -809,7 +809,7 @@ input[type="submit"] {
     }
 
     .video-content {
-        background: url(../images/phone-layer.png);
+        background: linear-gradient(180deg, rgb(0 0 0 / 62%) 21%, rgb(8 8 8 / 55%) 60%);
     }
 
     .video-container {
@@ -2339,11 +2339,40 @@ button.multiselect-btn {
     font-weight: 300!important;
     line-height: 35px;
 }
-.located-box  h3{
+.location-main{
+    color: #fff;
+}
+.location-mother{
+    display: flex;
     
+    flex-wrap: wrap;
+}
+.location-box{
+    width: 32%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+.location-main  h2{
+    text-align: left;
+    color: #fff;
     font-size:2vw;
     font-weight: 500;
+    margin-bottom: 50px;
+}
+.margin-100{
+    margin-top: 50px;
+}
+.location-main  h3{
+    text-align: left;
+    color: #fff;
+    font-size:1.4vw;
+    font-weight: 400;
     margin-bottom: 20px;
+}
+.location-main p {
+    font-size: 20px;
+    line-height: 30px;
 }
 .thanyou-div h4{
     font-size:30px;
@@ -2375,7 +2404,7 @@ button.multiselect-btn {
     .located-box p{
         font-size: 16px;
     }
-    .located-box h3{
+    .location-main h3{
         font-size: 30px;
     }
     .contact-page-main h2{
@@ -2383,6 +2412,45 @@ button.multiselect-btn {
     }
     .service-area{
         height: 500px;
+    }
+    .location-main h3 {
+        font-size: 20px;
+    }
+    .location-main p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .service-area {
+        height: 470px;
+    }
+    .contac-us-page{
+        padding: 120px 0 100px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .location-main p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 975px){
+    .location-box{
+        width: 100%;
+    }
+    .location-main h2 {
+        text-align: left;
+        color: #fff;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+    .location-main h2{
+        font-size: 25px;
+    }
+    .margin-100 {
+        margin-top: 5px;
     }
 }
 @media only screen and (max-width: 1100px){
@@ -2410,6 +2478,13 @@ button.multiselect-btn {
         padding: 150px 0 50px;
     }
     .service-area{
-        height: 470px;
+        height: 430px;
+    }
+    .service-content p{
+        font-size: 13px;
+    }
+    .service-content h3 {
+        font-size: 19px;
+        font-weight: 500;
     }
 }
