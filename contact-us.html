@@ -611,7 +611,28 @@
 
 
 
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const menu = document.getElementById("menu");
+        const menuItems = document.querySelectorAll("#menu li a");
+        const navbar = document.querySelector(".navbar");
 
+        hamburger.addEventListener("click", () => {
+        menu.classList.toggle("menu-active");
+        });
+
+        // Close the menu and remove fixed position from navbar on mobile
+        menuItems.forEach((item) => {
+        item.addEventListener("click", () => {
+            if (window.innerWidth <= 768) {
+            // Mobile screen size check
+            menu.classList.remove("menu-active");
+            navbar.classList.add("menu-closed"); // Remove fixed position
+            }
+        });
+        });
+
+    </script>
 
 
 
