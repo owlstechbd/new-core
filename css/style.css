@@ -2400,6 +2400,9 @@ button.multiselect-btn {
 .cta button a{
     color: #000;
 }
+.pad-20{
+    padding-left: 70px;
+}
 
 @media only screen and (max-width: 1600px){
     .located-box p{
@@ -2433,10 +2436,16 @@ button.multiselect-btn {
         font-size: 14px;
         line-height: 25px;
     }
+    .pad-20{
+        padding-left: 40px;
+    }
 }
 @media only screen and (max-width: 975px){
     .location-box{
         width: 100%;
+    }
+    .location-box{
+        padding: 0;
     }
     .location-main h2 {
         text-align: left;
