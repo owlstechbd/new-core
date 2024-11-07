@@ -266,7 +266,7 @@ video {
 .video-text {
     color: #fff;
     width: 50%;
-    max-width: 50%;
+    max-width: 45%;
     margin-top: 50px;
     position: absolute;
     top: 45%;
@@ -274,7 +274,7 @@ video {
 }
 
 .video-text h1 {
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-family: 'Publica Sans';
     font-weight: 500;
 }
