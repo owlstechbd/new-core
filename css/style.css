@@ -47,6 +47,7 @@ a:hover {
     position: relative;
     width: 100%;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .slider {
@@ -75,6 +76,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     z-index: 9999;
 }
 
@@ -181,9 +183,8 @@ a:hover {
 .hero2{
     background: url(../images/hero-banner2.png) top center;
     background-size: cover!important;
-    height: 80vh;
+    height: 75vh;
     width: 100%;
-    background-position-Y:106px ;
 }
 .background-video {
     width: 100%;
@@ -273,7 +274,7 @@ video {
 }
 
 .video-text h1 {
-    font-size: 3.246vw;
+    font-size: 3vw;
     font-family: 'Publica Sans';
     font-weight: 500;
 }
@@ -1199,7 +1200,7 @@ input[type="submit"] {
 
 .about {
     width: 100%;
-    padding: 100px 0;
+    padding: 70px 0;
     background: url(../images/about-us.png) center center no-repeat;
     background-size: cover;
 }
@@ -2348,11 +2349,11 @@ button.multiselect-btn {
     flex-wrap: wrap;
 }
 .location-box{
-    width: 32%;
+    width: 25%;
     margin-bottom: 30px;
-    margin-right: 10px;
-    padding-right: 30px;
+    padding:0 15px ;
 }
+
 .location-main  h2{
     text-align: left;
     color: #fff;
@@ -2366,8 +2367,8 @@ button.multiselect-btn {
 .location-main  h3{
     text-align: left;
     color: #fff;
-    font-size:1.4vw;
-    font-weight: 400;
+    font-size:1.2vw;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 .location-main p {
@@ -2404,9 +2405,7 @@ button.multiselect-btn {
     .located-box p{
         font-size: 16px;
     }
-    .location-main h3{
-        font-size: 30px;
-    }
+   
     .contact-page-main h2{
         font-size: 30px;
     }
@@ -2414,7 +2413,7 @@ button.multiselect-btn {
         height: 500px;
     }
     .location-main h3 {
-        font-size: 20px;
+        font-size: 17px;
     }
     .location-main p {
         font-size: 16px;
@@ -2478,7 +2477,7 @@ button.multiselect-btn {
         padding: 150px 0 50px;
     }
     .service-area{
-        height: 430px;
+        height: 450px;
     }
     .service-content p{
         font-size: 13px;
